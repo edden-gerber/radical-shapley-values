@@ -27,4 +27,4 @@ The difference (and correlation) between the radical Shapley values and SHAP Ker
 
 ![scatter](scatter-randdata.png)
 
-(Why are the dots not on the line? ...You'll need to read the [post](https://edden-gerber.github.io/shapley-part-2/) to get what's going on. 
+(Why are the dots not on the line? ...You'll need to read the [post](https://edden-gerber.github.io/shapley-part-2/) to get what's going on). 

@@ -1,7 +1,7 @@
 # radical-shapley-values
 Python code to directly compute "radical" Shapley values for model features, by re-training the model on a subset of features on each iteration.
 
-See blog post XXX (or here: https://edden-gerber.github.io/shapley-values) for an explanation of this method.
+See blog post XXX (or here: https://edden-gerber.github.io/shapley-part-2/) for an explanation of this method.
 
 **radical_shapely_values.py** contains the main _compute_shapley_values_ function.
 
@@ -26,3 +26,5 @@ The complexity of this function is exponential with the number of features, and 
 The difference (and correlation) between the radical Shapley values and SHAP KernelExplainer values can be seen in this scatter plot:
 
 ![scatter](scatter-randdata.png)
+
+(Why are the dots not on the line? ...You'll need to read the [post](https://edden-gerber.github.io/shapley-part-2/) to get what's going on. 

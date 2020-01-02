@@ -1,5 +1,5 @@
 # radical-shapley-values
-Python code to directly compute "radical" Shapley values for model features, by re-training the model on a subset of features on each iteration.
+Python code to directly compute "radical" Shapley values (EDIT: I later decided to change this name to the more apt "Naive" Shapley values, however this is not yet reflected in this repository) for model features, by re-training the model on a subset of features on each iteration.
 
 See the [blog post on Towards Data Science](https://towardsdatascience.com/a-new-perspective-on-shapley-values-the-radical-shapley-method-6c2f4af7f922) (or [on my blog](https://edden-gerber.github.io/shapley-part-2/)) for an explanation of this method.
 
